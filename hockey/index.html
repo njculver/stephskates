@@ -180,61 +180,18 @@
     </div>
   </section>
 
-  <!-- CTA / INTEREST FORM -->
+  <!-- CTA -->
   <section class="section-cta" id="contact">
     <div class="container">
       <h2>Ready to work on your edges?</h2>
       <p>
-        Tell Stephanie a bit about your situation. She'll follow up to talk through the right fit.
+        Apply to work with Stephanie or book a free discovery call to talk through the right fit.
       </p>
-
-      <!--
-        SETUP NOTE: Replace the action URL below with your Formspree endpoint.
-        1. Go to formspree.io and create a free account
-        2. Create a new form — name it "Hockey Interest"
-        3. Copy the form ID (e.g. xpzgkrby) and replace YOUR_FORM_ID below
-        4. Action becomes: https://formspree.io/f/YOUR_FORM_ID
-      -->
-      <form
-        class="interest-form"
-        action="https://formspree.io/f/YOUR_FORM_ID"
-        method="POST"
-      >
-        <input type="hidden" name="_subject" value="Hockey coaching inquiry — stephskates.com">
-        <input type="hidden" name="sport" value="Hockey">
-
-        <div class="form-row">
-          <label for="hk-name">Name</label>
-          <input type="text" id="hk-name" name="name" placeholder="Your name" required>
-        </div>
-
-        <div class="form-row">
-          <label for="hk-email">Email</label>
-          <input type="email" id="hk-email" name="email" placeholder="your@email.com" required>
-        </div>
-
-        <div class="form-row">
-          <label for="hk-level">Competitive level</label>
-          <select id="hk-level" name="competitive_level" required>
-            <option value="" disabled selected>Select your level</option>
-            <option value="youth">Youth / Learn to Train</option>
-            <option value="teen-competitive">Teen competitive (AA/AAA)</option>
-            <option value="tier-1-2">Tier I / Tier II</option>
-            <option value="ncaa-prep">NCAA prep</option>
-            <option value="adult-rec">Adult recreational</option>
-            <option value="adult-competitive">Adult competitive</option>
-            <option value="coach">I'm a coach</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <label for="hk-goal">What are you looking to improve?</label>
-          <textarea id="hk-goal" name="goal" rows="3" placeholder="e.g. crossovers, tight turns, backward skating, tryout prep..."></textarea>
-        </div>
-
-        <button type="submit" class="btn-submit">Send my interest →</button>
-        <p class="form-note">No commitment. Stephanie will reach out within 48 hours.</p>
-      </form>
+      <div class="cta-actions">
+        <a href="/apply.html" class="btn-primary">Apply to work with Stephanie</a>
+        <a href="https://calendar.app.google/U8hBmkAjbMytC3xX8" class="btn-ghost" target="_blank" rel="noopener">Book a discovery call</a>
+      </div>
+      <p class="form-note">No commitment. Stephanie will reach out within 48 hours.</p>
     </div>
   </section>
 

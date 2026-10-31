@@ -399,6 +399,23 @@ nav {
   transition: background 0.2s, color 0.2s;
 }
 .interest-form .btn-submit:hover { background: var(--deep-graphite); color: var(--white); }
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section-cta .btn-primary {
+  background: var(--white);
+  color: var(--lagoon-blue);
+}
+.section-cta .btn-primary:hover { background: #f0f0f0; transform: translateY(-1px); }
+.section-cta .btn-ghost {
+  border-color: rgba(255,255,255,0.7);
+  color: var(--white);
+}
+.section-cta .btn-ghost:hover { background: rgba(255,255,255,0.15); color: var(--white); }
 .form-note {
   font-size: 0.78rem;
   color: rgba(255,255,255,0.55);
